@@ -1,0 +1,116 @@
+/*! Left MenuBar Manager Logo */
+.manager-logo {
+    z-index: 4;
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    padding: 10px;
+}
+
+.manager-logo img {
+    width: 100%;
+}
+
+/*! Page Template */
+table, tr, td, th {
+    border: 1px solid #ddd !important;
+}
+
+th, tr {
+    height: 45px;
+    text-align: center;
+}
+
+table.dataTable.no-footer {
+    border-color: #ddd !important;
+}
+
+table.dataTable thead th,
+table.dataTable thead td {
+    border-color: #ddd !important;
+}
+
+table.dataTable thead th {
+    font-size: 16px;
+}
+
+#login_page .card .card-body {
+    padding: 28px 15px !important;
+}
+
+#login_page .card .form-check {
+    margin-top: 35px !important;
+}
+
+#login_page .bmd-form-group {
+    margin-top: 25px !important;
+}
+
+.card .card-body {
+    padding: 50px !important;
+}
+
+.main-panel>.content {
+    margin-top: 50px !important;
+    padding: 5px 15px 30px !important;
+    min-height: calc(100vh - 118px) !important;
+}
+
+/*! form */
+.form-control {
+    font-size: 1rem !important;
+}
+.col-form-label {
+    padding-top: 1.2rem !important;
+    font-size: 16px !important;
+    text-align: right;
+    padding-right: 2rem;
+}
+
+
+/*! Report Page */
+.report-table {
+    border: 2px solid #fff;
+    font-size: 18px;
+}
+
+.card.reports {
+    margin: 0px;
+}
+
+.card.reports .card-body {
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.card.reports p {
+    margin: 0px;
+    font-size: 1rem;
+    line-height: 2.4;
+}
+
+.card.reports p span {
+    font-weight: 500;
+}
+
+/*! Users Page*/
+.card.users .card-body {
+    padding-top: 10px !important;
+}
+
+
+.card-header-primary {
+    background: #00BCD4 !important;
+}
+
+
+/*! Dentist Management */
+.manager_id {
+    width: 70%;
+    font-size: 14px;
+    padding: 5px 15px;
+    border-color: rgba(0, 0, 0, 0.2);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
